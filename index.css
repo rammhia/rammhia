@@ -1,0 +1,424 @@
+
+.pageBackground {
+    background-color: rgb(190, 250, 243);
+  }
+  
+.highlight{
+    background-color: aqua;
+}
+
+.navbar-style{
+    background-color: rgba(5,46,102,255)!important;
+    
+}
+
+.navbar-font {
+    color: rgb(254, 163, 6)!important;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.green-highlight{
+    color: rgb(81, 167, 81)!important;
+    font-size: 40px;
+}
+
+.blue-highlight{
+    color: rgb(51, 51, 163)!important;
+    font-size: 30px;
+}
+
+.yellow-highlight{
+    color: rgb(151, 198, 58)!important;
+    font-size: 35px;
+}
+
+.linkUnderline{
+  
+  text-decoration: none;
+
+}
+
+.required::after {
+  content: ' *';
+  color: red;
+}
+
+
+
+.card{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 250px;
+    width: 250px;
+    float: left;
+    display: table;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  text-align: inherit;
+  
+}
+
+.cardSub{
+  background-color: rgb(62, 134, 179);
+  border: 1px solid rgb(77, 197, 123);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: fit-content;
+  width: fit-content;
+  
+}
+
+.headingHeader{
+text-align: center;
+text-justify: top;
+font-size: 18px;
+font-weight: bold;
+font-display: block;
+font-family: 'Times New Roman', Times, serif;
+
+}
+
+.textLeft{
+  font-size: 14px;
+  font-style:normal;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  text-align: left;
+  text-justify: left;
+  display: flex;
+  margin: auto;
+}
+
+.textRight{
+  font-size: small;
+  font-style:normal;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  text-align: right;
+  text-justify: right;
+  display: flex;
+  margin: auto;
+}
+
+.textCenter{
+  font-size: 14px;
+  font-style:normal;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  text-align: center;
+  text-justify: center;
+ 
+}
+
+.textCenterMain{
+  font-size: 35px;
+  font-style:normal;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  text-align: center;
+  text-justify: center;
+  margin-top: 100px;
+ 
+}
+
+.btnGeneral{
+  text-align: center;
+  Font-size: 12px;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: auto;
+  margin: auto;
+  
+}
+
+
+/* [1] The container */
+.img-hover-zoom {
+  cursor: pointer;
+  pointer-events: all;
+  cursor: zoom-in;
+  height: 300px; /* [1.1] Set it as per your need */
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom img {
+  transition: transform .5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom:hover img {
+  transform: scale(1.5);
+}
+
+/* Zoom-n-rotate Container */
+.img-hover-zoom--zoom-n-rotate img {
+  transition: transform .5s ease-in-out;
+}
+
+/* The Transformation */
+.img-hover-zoom--zoom-n-rotate:hover img {
+  transform: scale(2) rotate(25deg);
+}
+
+
+.displayMessage{
+  font-size: 18px;
+  font: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: auto 1rem;
+  padding: 1rem 1rem;
+  background: rgb(183, 254, 4);
+  color: rgb(17, 6, 243);
+  border-radius: .55rem;
+  position: absolute;
+  left: 25%;
+  }
+
+  .container {
+    image-rendering: auto;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(14, 6, 74);
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(180, 244, 255);
+    /* Boarder Frame */
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+  }
+
+  .subContainer {
+    image-rendering: auto;
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+    color: rgb(14, 6, 74);
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(245, 238, 222);
+    /* Boarder Frame */
+    width: 10%;
+    border: 3px solid rgb(0, 38, 128);
+    align-self: auto;
+    padding: 10px;
+  }
+
+.textCentered {
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(14, 6, 74);
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(180, 244, 255);
+    /* Boarder Frame */
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+  }
+
+  .textCenteredHead {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(23, 25, 133);
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(221, 231, 232);
+    /* Boarder Frame */
+    width: 50%;
+    border: 3px solid rgb(78, 30, 2);
+    padding: 10px;
+  }
+
+  .textStyle {
+    font-size:larger;
+    font-weight: bold;
+    color: rgb(66, 247, 180);
+    font-family: 'Times New Roman', Times, serif; 
+
+  }
+
+  .table {
+    width: 100%;
+    overflow: auto; /* Allow scrolling within the table */
+  }
+
+  .pageContentAlignment{
+        text-align: justify;
+        font-size: 25px;
+        font-weight: bold;
+        color: rgb(23, 25, 133);
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(252, 254, 200);
+        /* Boarder Frame */
+        width: 50%;
+        border: 3px solid rgb(7, 48, 30);
+        padding: 10px;   
+  }
+
+  .pageContentAlignment-2{
+    text-align: justify;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(238, 221, 28);
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(41, 113, 196);
+    /* Boarder Frame */
+    width: 50%;
+    border: 3px solid rgb(7, 48, 30);
+    padding: 10px;   
+}
+
+.pageLogin{
+    text-align: justify;
+    Font-size: 40px;
+    font-style: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(254, 254, 254);
+    /* Boarder Frame */
+    width: 50%;
+    border: 2px solid rgb(7, 48, 30);
+    padding: 40px;   
+}
+
+.pageLogin-2{
+    text-align: center;
+    Font-size:18px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.textLoginStyle {
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(17, 61, 45);
+    font-family: 'Times New Roman', Times, serif; 
+
+  }
+
+  .textLoginStyle-2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(14, 8, 46);
+    font-family: 'Times New Roman', Times, serif; 
+
+  }
+
+
+  .new-line {
+    white-space: pre-wrap;
+    
+  }
+
+  .lineCenter {
+    text-align: center;
+  }
+
+  .inputAlignment {
+    text-align: center;
+  }
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 10px;
+    grid-auto-rows: 100px;
+    grid-template-areas:
+      "a a a a b b b b"
+      "a a a a b b b b"
+      "c c c c d d d d"
+      "c c c c d d d d";
+  }
+  .item1 {
+    grid-area: a;
+  }
+  .item2 {
+    grid-area: b;
+    justify-self: start;
+  }
+  .item3 {
+    grid-area: c;
+    justify-self: end;
+  }
+  .item4 {
+    grid-area: d;
+    justify-self: center;
+  }
+
+  /* Registration Form Body */
+  body{ /*Color of the page body */
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.form{
+    background-color: white;
+    border-radius: 5px;
+    width: 550px;
+    margin: 20px auto;
+    padding: 20px;
+    /* height: 600px; */
+}
+
+.form-body{
+    text-align: left;
+    padding: 20px 10px;
+}
+
+.form-body > *{
+    padding: 5px;
+}
+
+.form__label{
+    width: 40%;
+}
+
+.form__input{
+    width: 60%;
+}
+
+.footer{
+    text-align: center;
+}
